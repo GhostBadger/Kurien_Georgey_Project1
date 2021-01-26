@@ -1,0 +1,62 @@
+.hidden
+{
+	display: none;
+}
+
+body
+{
+	font-family: Papyrus, Arial, sans-serif;
+	font-size: 16px;
+	letter-spacing: 1px;
+}
+
+#container
+{
+	width: 900px;
+	margin: 0 auto;
+	padding: 20px;
+}
+
+#mainNav ul
+{
+	width: 300px;
+	background-color: #367eb0;
+	color: #fff;
+}
+
+#mainNav ul li
+{
+	border-bottom: 2px solid #1065a1;
+	border-top: 2px solid #4889b7;
+	padding: 15px;
+}
+
+#mainNav ul li:first-child
+{
+	border-top: none;
+}
+
+#mainNav ul li:last-child
+{
+	border-bottom: none;
+}
+
+#games
+{
+	margin-top: 50px;
+}
+
+#games ul
+{
+	width: 200px;
+}
+
+#games ul li:nth-child(even)
+{
+	background-color: #CCC;
+}
+
+
+
+
+
